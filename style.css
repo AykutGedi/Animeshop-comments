@@ -1,0 +1,37 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+#anime-comments .img-profile {
+  width: 80px;
+  margin-right: 0.7rem;
+}
+
+#anime-comments .comments-content {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
+#anime-comments .comments-content .fa-star {
+  font-size: 13px;
+}
+
+#anime-comments .checked {
+  color: #ffc107;
+}
+
+#anime-comments .fa-thumbs-down:hover {
+  border-color: #a2a8ad;
+  color: black;
+}
+
+#anime-comments .fa-thumbs-up:hover {
+  border-color: #a2a8ad;
+  color: #fff;
+}
+
+#anime-comments .form-control,
+.form-select {
+  background-color: #f9f9f9;
+}
